@@ -1,0 +1,487 @@
+.flex-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.center {
+  font-family: "verdana", sans-serif;
+  line-height: 1;
+  position: relative;
+  width: 100%;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.review-container,
+.quote-review-grouper,
+.address {
+  max-width: 100%;
+  color: #555555;
+  padding: 20px 20px 4px 20px;
+  margin-top: 50px;
+  background: #f3f3f3;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+
+.address {
+  background: #fff;
+  padding: 8px 16px;
+  margin-top: 0;
+}
+
+.quote-review-container {
+  margin-top: 24px;
+}
+
+.quote-review-container:first-child {
+  margin-top: 0px;
+}
+
+.quote-review-grouper {
+  background: #fff;
+  padding: 16px 24px;
+  max-width: 600px;
+  display: table;
+  margin: 32px auto;
+  width: fit-content;
+}
+
+.quote-review-grouper.with-max-width {
+  max-width: 600px;
+  width: 80%;
+}
+
+.quote-review-container .review {
+  padding-bottom: 0;
+}
+
+.address p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.95em;
+  line-height: 2em;
+}
+
+.ycomment {
+  margin-top: 0px;
+  max-width: 100%;
+}
+
+.review-container p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.review-container .review p {
+  padding-bottom: 8px;
+}
+
+.review-container .review p:last-child {
+  padding-bottom: 0;
+}
+
+.review-container .review-header {
+  width: 100%;
+  position: relative;
+}
+
+.center > .review-container > .review-header .nowrap {
+  /* do not apply to all headers or there will be a line break in comments */
+  display: flex;
+  width: 100%;
+}
+
+.review-container .review-header .author-icon {
+  display: inline-block;
+  font-size: 1.45em;
+}
+
+.review-container .review-header .author-name {
+  margin-left: 0.2em;
+  display: inline-block;
+  white-space: normal;
+  word-wrap: anywhere;
+}
+
+.review-container .review-header .author-name span {
+  display: block;
+}
+
+.address-author-name,
+.review-container .author-name {
+  color: darkslateblue;
+  font-weight: bold;
+  font-size: 1.45em;
+  cursor: pointer;
+}
+
+.author-name:hover {
+  color: rgb(109, 96, 190);
+}
+
+.review-container .ycomment .ycomment-header,
+.review-container .ycomment .ycomment-icon,
+.review-container .ycomment .author-icon,
+.review-container .ycomment .author-name,
+.review-container .quote-review-container .author-name,
+.review-container .quote-review-container .author-icon,
+.address-author-name {
+  font-size: 0.95em;
+}
+
+.ycomment-header {
+  font-weight: bold;
+}
+
+.date {
+  float: right;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  color: #999999;
+  line-height: 0.7em;
+  cursor: pointer;
+}
+
+.date.date-left {
+  float: none;
+}
+
+.ycomment .date,
+.address-date.date {
+  float: none;
+  margin-bottom: 4px;
+  margin-left: 18px;
+  margin-top: 16px;
+}
+
+.sub-ycomment .date,
+.address-date.date {
+  margin-left: 0;
+}
+
+.address-date.date p {
+  margin: 0;
+}
+
+.review-container .date:hover {
+  text-decoration: underline;
+}
+
+.review-container .date sup {
+  text-transform: lowercase;
+}
+
+.review-container .review-header .rating {
+  margin: 16px 0 0 0;
+  font-size: 1.5em;
+}
+
+.review-container .review-header .rating .unrated {
+  font-size: 0.6em;
+  font-style: italic;
+}
+
+.review-container .review {
+  padding-top: 4px;
+}
+
+.review-container .review p {
+  font-family: "verdana", sans-serif;
+  text-align: left;
+  font-size: 0.95em;
+  line-height: 2em;
+}
+
+.review-container .review p em {
+  font-style: italic;
+}
+
+.review-container .review p strong {
+  font-style: bold;
+}
+
+.review-container hr {
+  width: 40%;
+  opacity: 0.2;
+  margin-bottom: 22px;
+}
+
+.review {
+  padding-bottom: 16px;
+}
+
+.yelp-link {
+  color:rgb(6, 95, 212);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ycomment .sub-ycomment {
+  margin-left: 32px;
+}
+
+.main-ycomment {
+  margin-top: 8px;
+}
+
+.yelp-error-message {
+  border: 1px solid black;
+  margin: 50px 0;
+  width: fit-content;
+  padding: 50px 60px 40px 50px;
+  border-radius: 4px;
+}
+
+.yt-background {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.yt-background img {
+  max-width: 100%;
+}
+
+.yt-video,
+.yt-title {
+  width: 100%;
+}
+
+.yt-video {
+  cursor: pointer;
+}
+
+.yt-background > p,
+.yt-video p,
+.yt-title p,
+.yt-title p {
+  margin: 0;
+}
+
+.yt-title p {
+  margin-bottom: 14px;
+}
+
+.yt-title {
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 20px;
+  line-height: 1.8rem;
+  font-weight: 700;
+  white-space: normal;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.yt-description-container {
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+  margin-top: 12px;
+  padding: 0.01px;
+}
+.yt-description-container.cut-off {
+  overflow: clip;
+}
+.yt-cut-off-overlay {
+  background: white;
+  height: 1em;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+.yt-description-container.cut-off .yt-description {
+  margin-top: -1.3em;
+}
+
+.yt-description {
+  margin: 0 12px;
+}
+
+.yt-description p {
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.yt-description > p.yt-header {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.yt-grey {
+  color: #606060;
+}
+
+.i {
+  font-style: italic;
+}
+
+.yt-background strong,
+.yt-background b {
+  font-weight: 600;
+}
+
+.yt-align-right {
+  text-align: right;
+}
+
+.yt-background a {
+  color: rgb(6, 95, 212);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.yt-background hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.address.remove-margin-top {
+  margin-top: 50px;
+}
+
+.review-container .block-message {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 0.95em;
+}
+
+.azrael {
+  font-variant:small-caps;
+}
+
+.review p.yelp-autocomment {
+  margin: 10px;
+  color: gray;
+  font-weight: bold;
+  font-family: "Consolas", "Lucida Console", "Courier New", monospace;
+}
+
+.ydrawing {
+  max-height: 1500px;
+}
+
+.red {
+  color: red;
+}
+
+.blink-container .blink-slow {
+  opacity: 0;
+  transition: opacity 30s;
+}
+
+
+.blink-container:active .blink-slow,
+.blink-container:focus .blink-slow,
+.blink-container:hover .blink-slow {
+  opacity: 1;
+  transition: opacity 10s;
+}
+
+.medium-big, .yt-description p.medium-12 {
+  font-size: 1.2rem;
+}
+
+.medium-big, .yt-description p.medium-big {
+  font-size: 1.5rem;
+}
+
+.big, .yt-description p.big {
+  font-size: 2rem;
+}
+
+.really-big, .yt-description p.big-25, .yt-description span.big-25 {
+  font-size: 2.5rem;
+}
+
+.really-big, .yt-description p.really-big {
+  font-size: 3rem;
+}
+
+.tall {
+  transform: scaleY(4);
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.text-img {
+  height: 1.119em;
+  vertical-align: -0.213em;
+}
+
+.div-fade {
+  box-shadow: -10px -8px 15px rgba(0, 0, 0, 0.25),
+  10px -8px 15px rgba(0, 0, 0, 0.25),
+  0px -8px 10px rgba(0, 0, 0, 0.25),
+  inset -10px 8px 15px rgba(0, 0, 0, 0.25),
+  inset 10px 8px 15px rgba(0, 0, 0, 0.25),
+  inset 0px 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.negative-top-margin {
+  margin-top: -35px;
+}
+
+.red-text-shadow {
+  text-shadow: 6px 4px 2px #B02020;
+}
+
+.loading-spinner {
+  height: 1.2em;
+  margin-right: 6px;
+  vertical-align: center;
+}
+.buffering {
+  color: rgba(0, 0, 0, 0.5);
+}
+.centered-text {
+  text-align: center;
+}
+.right-text {
+  text-align: right;
+}
