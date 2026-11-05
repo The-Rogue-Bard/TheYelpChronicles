@@ -487,6 +487,7 @@
 }
 
 .flex-space-between {
+  font-size: unset;
   display: flex;
   flex-direction: flex;
   justify-content: space-between;
