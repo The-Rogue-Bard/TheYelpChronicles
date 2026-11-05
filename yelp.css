@@ -487,11 +487,14 @@
 }
 
 .flex-space-between {
-  font-size: unset;
   display: flex;
   flex-direction: flex;
   justify-content: space-between;
   margin: 1em 10%;
+}
+
+.flex-space-between button {
+  font-size: 18px;
 }
 
 .blink-slow-move {
