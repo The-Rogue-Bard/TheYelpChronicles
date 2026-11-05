@@ -508,3 +508,7 @@
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+.gimmesomepadding {
+  padding:10px;
+}
