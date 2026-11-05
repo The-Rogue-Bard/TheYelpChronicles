@@ -495,7 +495,7 @@
 
 .blink-slow-move {
     -webkit-animation: fade;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 12s;
     -webkit-animation-iteration-count: infinite;
 }
 
