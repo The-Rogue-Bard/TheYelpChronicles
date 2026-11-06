@@ -119,14 +119,16 @@
   cursor: pointer;
 }
 
+.review-container .ycomments-container .author-name {
+  font-size: 1em;
+}
+
 .author-name:hover {
   color: rgb(109, 96, 190);
 }
 
-.review-container .ycomment .ycomment-header,
 .review-container .ycomment .ycomment-icon,
 .review-container .ycomment .author-icon,
-.review-container .ycomment .author-name,
 .review-container .quote-review-container .author-name,
 .review-container .quote-review-container .author-icon,
 .address-author-name {
@@ -495,7 +497,7 @@
 }
 
 .flex-space-between button {
-  font-size: 1.2rem;
+  font-size: 1rem;
   min-height: 3rem;
   padding: 10px;
   cursor: pointer;
